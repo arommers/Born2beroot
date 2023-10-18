@@ -29,7 +29,7 @@ Below we have a short summary of the tasks that were required by our assignment:
 - **Configure a strong password policy**
   This one is kind of self-explanatory.
 - **Install and configure sudo following strict rules**  
-  `sudo` allows authorized users to execute commands with administrative privileges. Installing and configuring sudo with strict rules involves setting up who has `sudo` access, what commands they can run, and under what circumstances. This helps ensure that only authorized users can perform administrative tasks.
+  `sudo` allows authorized users to execute commands with administrative privileges. Installing and configuring `sudo` with strict rules involves setting up who has `sudo` access, what commands they can run, and under what circumstances. This helps ensure that only authorized users can perform administrative tasks.
 - **In addition to the root user, a user with your login as username has to be present**
   This task involves creating a user account with your login name. Having a dedicated user account is important for personalization and security. It's also best practice to avoid using the root account for everyday tasks.
 - **Create a simple script called monitoring.sh**  
