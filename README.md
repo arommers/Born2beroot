@@ -39,4 +39,33 @@ Below we have a short summary of the tasks that were required by our assignment:
   
   ![script](https://i.imgur.com/4LbzfYf.png)
 
-  
+  ---
+
+### Checksum
+
+You might have noticed that this repositor is starved of any actual files. It only includes a text file that includes notes on how to execute our tasks and a file containing the checksum of a state of our virtual machine.
+A checksum is a cryptographic hash function expressed in a value derived from a set of data. Our virtual machine and the state that it is in. The checksum is used to check the integrity of that data. It's a way to verify if the data has been altered or corrupted during transmission or storage. Because grading of this project happens in rounds of three, it prevents altering the state between separate evaluations.
+
+An example of a checksum looks like this:
+
+`6dcd4e6c7e11cbfe3f0447a4a899a96f0f7ebcd7eb6b8fb1f96b5a230b3efba8`  
+
+Again, the purpose of a checksum is to verify the integrity of data, not to encrypt it. A good checksum algorithm should produce a significantly different result for even a small change in the input data.
+To use it we can run the following command on Unix/Linux systems:
+
+`shasum -a 256 filename.ext`
+
+to check if a file was altered run the appropriate checksum command on it. Then, compare the generated checksum with the one provided by the source. If they match, it indicates that the file was downloaded correctly and hasn't been tampered with. If even one character differs, someone messed with it ;).
+
+---
+
+### Remarks
+A pretty straightforward, non-coding assignment, that I don't have much to comment on. I love learning about coding adjacent, IT related concepts and this was a small step in that direction.
+
+---
+
+### Sources
+- [Step by Step](https://baigal.medium.com/born2beroot-e6e26dfb50ac)
+- [Another Step by Step](https://github.com/pasqualerossi/Born2BeRoot-Guide)
+- [What are Checksums?](https://www.howtogeek.com/363735/what-is-a-checksum-and-why-should-you-care/)
+- [Subject File](https://cdn.intra.42.fr/pdf/pdf/82536/en.subject.pdf)
