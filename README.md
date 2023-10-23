@@ -6,7 +6,7 @@ Born2BeRoot is an exercise in hands-on experience in system administration and s
 In this project we install and configure a virtual machine to be a server. Configuration includes among other things:
 Setting up a firewall, configuring user accounts and permissions, setting up monitoring and more.
 
-### Virtual machine and operatig system
+### Virtual machine and operating system
 To be able to configure anything we need to have an up and running system.  
 To this end we first download and install: [Virtual Box](https://www.virtualbox.org/)  
 
@@ -43,7 +43,7 @@ Below we have a short summary of the tasks that were required by our assignment:
 
 ### Checksum
 
-You might have noticed that this repositor is starved of any actual files. It only includes a text file that includes notes on how to execute our tasks and a file containing the checksum of a state of our virtual machine.
+You might have noticed that this repository is starved of any actual files. It only includes a text file that includes notes on how to execute our tasks and a file containing the checksum of a state of our virtual machine.
 A checksum is a cryptographic hash function expressed in a value derived from a set of data. Our virtual machine and the state that it is in. The checksum is used to check the integrity of that data. It's a way to verify if the data has been altered or corrupted during transmission or storage. Because grading of this project happens in rounds of three, it prevents altering the state between separate evaluations.
 
 An example of a checksum looks like this:
